@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gaugeRotation">
+        <attr name="gauge_gackground" format="reference|color" />
+        <attr name="point_gackground" format="reference|color" />
+        <attr name="is_rotation" format="boolean" />
+        <attr name="gravity">
+            <enum name="LEFT" value="0" />
+            <enum name="CENTER" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
